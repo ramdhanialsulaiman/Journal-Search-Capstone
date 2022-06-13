@@ -10,24 +10,28 @@ Member :  1. Aldiana Sugesti Firdayanti - C2193F1842
           
           
           
-#Cloud Computing
+# Cloud Computing
 The considerations we use when deciding to choose an app engine is that because app engines are included in the platform as a service, getting a service provides more instances when traffic is high and decreases instances when traffic decreases automatically. 
 
-#Cloud Services Architecture
+# Cloud Services Architecture
 ![image](https://user-images.githubusercontent.com/101315797/173280854-7158f77f-6ed1-46e6-89bf-9bf53758eb9f.png)
 
-#Documentation Deployment
+# Documentation Deployment
 1. Create a new project in google cloud console
+
 ![image](https://user-images.githubusercontent.com/101315797/173280951-c139b056-2be3-4687-9a80-935ed0b61c41.png)
 
 2. Set the IAM to invite another member
+
 ![image](https://user-images.githubusercontent.com/101315797/173281034-b2231e86-4e0f-4899-911a-daca15d66930.png)
 
 3. Create instance on CloudSQL choose MySQL
+
 ![image](https://user-images.githubusercontent.com/101315797/173281102-c6f8ee65-9e58-4dc5-a1db-44a31e1ed6a8.png)
 When you create the instance, you generate the instance ID and password, save the id and password for later use. And don’t forget to make a connection as a Public IP
 
 4.Create the database inside the instance that we create previously
+
 ![image](https://user-images.githubusercontent.com/101315797/173281159-f1fe86ae-5e9c-421c-bdb0-be7ba91589a2.png)
 
 5. Import the database you use from local to cloudSQL, import to database that we create previously. 
@@ -35,6 +39,7 @@ When you create the instance, you generate the instance ID and password, save th
 7. Clone the code from this github to your code editor
 8. Install and init google cloud SDK
 9. Change the database credential with your credential
+
 ![image](https://user-images.githubusercontent.com/101315797/173281251-66848577-0b10-4ed7-b3a2-f9a497a5d0e0.png)
 
 10. After set the credential and init google cloud SDK, we can deploy with app engine by running this code “gcloud app deploy”
