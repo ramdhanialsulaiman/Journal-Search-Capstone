@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "172488824815",
+    "project_id": "fir-login-signup-eac4c",
+    "storage_bucket": "fir-login-signup-eac4c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172488824815:android:8a6e9e7616756c034a481a",
+        "android_client_info": {
+          "package_name": "com.example.journalsearch"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172488824815-4ahv4ju33lkgd51um7ands0d4j6p9up0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.journalsearch",
+            "certificate_hash": "fd4c47b89ee4778882e174aab9888016972abe90"
+          }
+        },
+        {
+          "client_id": "172488824815-h12su3qb277jfbe7tgp6mks4pjq2897b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDHMhTQsrjDMEOyNW5f5abtTLtDJEw1O2I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172488824815-h12su3qb277jfbe7tgp6mks4pjq2897b.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
